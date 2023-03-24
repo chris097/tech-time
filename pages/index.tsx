@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Banner from '@/components/Banner'
 import Client from '@/components/Client'
 import Courses from '@/components/Courses'
+import About from '@/components/About'
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Banner />
         <Client />
         <Courses />
+        <About />
       </main>
     </>
   )
