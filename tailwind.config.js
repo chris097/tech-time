@@ -13,11 +13,12 @@ module.exports = {
         primaryblack: "#000F24",
         lightblue: "#AAC4E6",
         coregray: "#A1A1A1",
-        coreblack: "#2A2A2B"
+        coreblack: "#2A2A2B",
+        lighterblue: "#CCDBF0"
       },
       fontFamily: {
         "font-satoshi": ["Satoshi", "sans-serif"],
-        "font-prclash": ["Clash Display", "sans-serif"],
+        "font-clash": ["Clash Display", "sans-serif"],
       }
     },
   },
