@@ -1,6 +1,9 @@
+import Audio from "@/assets/svg/Audio";
+import Zoom from "@/assets/svg/Zoom";
 import { CONSTANT_TEXT } from "@/constants";
 import { PUBLIC_URL } from "@/url";
 import { StaticImageData } from "next/image";
+import { ReactNode } from "react";
 import avatar1 from '../assets/images/image.png';
 import avatar2 from '../assets/images/image1.png';
 import avatar3 from '../assets/images/image2.png';
@@ -16,9 +19,9 @@ export const navs: { id: number, name: string, link: string }[] = [
 ];
 
 export const avatars: { id: number, url: StaticImageData }[] = [
-    {id: 1, url: avatar1},
-    {id: 2, url: avatar2},
-    {id: 3, url: avatar3},
-    {id: 4, url: avatar4},
-    {id: 5, url: avatar5},
-]
+    { id: 1, url: avatar1 },
+    { id: 2, url: avatar2 },
+    { id: 3, url: avatar3 },
+    { id: 4, url: avatar4 },
+    { id: 5, url: avatar5 },
+];

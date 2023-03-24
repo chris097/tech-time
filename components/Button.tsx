@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 type ButtonProps = {
-    name: string | any
+    name: string | ReactNode
     bg: string
     width: string
     height: string
@@ -21,10 +21,10 @@ const Button: React.FC<ButtonProps> = (props) => (
             ${props.height}
             ${props.color} 
             ${props.border}
-            rounded-[4px] hover:opacity-80`
+            rounded-[4px] hover:opacity-80 font-font-satoshi`
         }>
             {props.name}
     </button>
 );
 
-export default Button
+export default Button;
