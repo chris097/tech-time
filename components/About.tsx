@@ -5,13 +5,13 @@ import Course2 from '../assets/images/course2.png';
 const About = () => {
     return (
         <div className='container mt-28 h-full'>
-            <div className='flex space-x-14 items-center'>
+            <div className='flex space-x-24 items-center'>
                 <div className='flex-1'>
-                    <h2 className='text-[50px] 2xl:text-[56px] text-primaryblack font-bold font-font-clash leading-[70px]'>This Is Why We Are Best From Others</h2>
+                    <h2 className='text-[48px] 2xl:text-[56px] text-primaryblack font-bold font-font-clash leading-[70px] w-full'>This Is Why We Are Best From Others</h2>
                     <p className='w-[88%] leading-28 mt-4 mb-8 text-coregray font-font-satoshi text-base font-medium capitalize'>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
                     <Image className='w-full h-[450px] object-fill bg-no-repeat bg-cover' src={Course2} alt="Man with laptop" />
                 </div>
-                <div className='flex-1 space-y-6 '>
+                <div className='flex-1 space-y-6 mt-8'>
                     <div className='flex items-center space-x-6'>
                         <div className='bg-white w-1/2 h-auto p-6 font-font-satoshi '>
                             <span>

@@ -3,6 +3,7 @@ import Banner from '@/components/Banner'
 import Client from '@/components/Client'
 import Courses from '@/components/Courses'
 import About from '@/components/About'
+import Category from '@/components/Category'
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Client />
         <Courses />
         <About />
+        <Category />
       </main>
     </>
   )

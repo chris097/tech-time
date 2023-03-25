@@ -14,7 +14,8 @@ module.exports = {
         lightblue: "#AAC4E6",
         coregray: "#A1A1A1",
         coreblack: "#2A2A2B",
-        lighterblue: "#CCDBF0"
+        lighterblue: "#CCDBF0",
+        coreblue: "rgba(30, 93, 206, 0.2)"
       },
       fontFamily: {
         "font-satoshi": ["Satoshi", "sans-serif"],

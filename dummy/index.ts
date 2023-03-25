@@ -25,3 +25,10 @@ export const avatars: { id: number, url: StaticImageData }[] = [
     { id: 4, url: avatar4 },
     { id: 5, url: avatar5 },
 ];
+
+export const categories:{id: number, name: string}[] = [
+    {id: 1, name: "All Categories"},
+    {id: 2, name: "Design"},
+    {id: 3, name: "Development"},
+    {id: 4, name: "Marketing"},
+]
