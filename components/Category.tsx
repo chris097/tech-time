@@ -7,8 +7,8 @@ const Category = () => {
   return (
       <div className='container mt-28'>
           <div className='text-center'>
-              <h2 className='text-[48px] 2xl:text-[56px] font-font-clash font-bold'>Browse Our Popular Courses</h2> 
-              <p className='text-base font-font-satoshi w-[55%] flex mx-auto text-coregray font-medium'>
+              <h2 className='h1-text'>Browse Our Popular Courses</h2> 
+              <p className='p-text'>
                   High-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image
               </p>
               <div className='flex justify-center space-x-8 mt-[56px]'>
@@ -17,8 +17,12 @@ const Category = () => {
                       {category.name}
                   </div>
                 ))}
-              </div>
+        </div>
+        <div className='w-full gap-8 grid grid-cols-3 h-auto mt-16 text-left'>
         <Card />
+        <Card />
+        <Card />
+        </div>
         <div className='font-bold mt-10'>
           <Button 
           name="Explore All Courses"

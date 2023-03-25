@@ -25,4 +25,10 @@ a {
   .container {
     @apply mx-7 md:mx-16 2xl:max-w-7xl relative
   }
+  .h1-text{
+    @apply text-[56px] font-font-clash font-bold text-center
+  }
+  .p-text{
+    @apply text-base font-font-satoshi w-[55%] flex mx-auto text-coregray font-medium text-center
+  }
 }

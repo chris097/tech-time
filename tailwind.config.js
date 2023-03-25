@@ -15,6 +15,7 @@ module.exports = {
         coregray: "#A1A1A1",
         coreblack: "#2A2A2B",
         lighterblue: "#CCDBF0",
+        nextgray: "#424141",
         coreblue: "rgba(30, 93, 206, 0.2)"
       },
       fontFamily: {

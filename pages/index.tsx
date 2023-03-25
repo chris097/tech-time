@@ -4,6 +4,10 @@ import Client from '@/components/Client'
 import Courses from '@/components/Courses'
 import About from '@/components/About'
 import Category from '@/components/Category'
+import Testimony from '@/components/Testimony'
+import Community from '@/components/Community'
+import FAQ from '@/components/FAQ'
+import Footer from '@/components/Footer'
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +28,10 @@ export default function Home() {
         <Courses />
         <About />
         <Category />
+        <Testimony />
+        <Community />
+        <FAQ />
+        <Footer />
       </main>
     </>
   )

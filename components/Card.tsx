@@ -5,7 +5,7 @@ import UXDesigner from '../assets/images/ux-designer.png';
 
 const Card = () => {
     return (
-        <div className='w-full gap-8 grid grid-cols-3 h-auto mt-16 text-left'>
+        <div>
             <div className='h-auto bg-white p-4 rounded-[16px]'>
                 <Image className='h-[292.67px] w-full object-fill bg-no-repeat bg-cover' src={UX} alt="courses" />
                 <div className='flex justify-between mt-3 items-center'>
