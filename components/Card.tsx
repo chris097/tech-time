@@ -6,14 +6,14 @@ import UXDesigner from '../assets/images/ux-designer.png';
 const Card = () => {
     return (
         <div>
-            <div className='h-auto bg-white p-4 rounded-[16px]'>
-                <Image className='h-[292.67px] w-full object-fill bg-no-repeat bg-cover' src={UX} alt="courses" />
+            <div className='h-auto bg-white lg:p-4 p-2 lg:rounded-[16px] rounded-[4px]'>
+                <Image className='lg:h-[292.67px] h-[117.88px] w-full object-fill bg-no-repeat bg-cover' src={UX} alt="courses" />
                 <div className='flex justify-between mt-3 items-center'>
-                    <span className='bg-coreblue p-2 text-xs text-primaryblue rounded-full w-[79px] font-font-satoshi font-bold flex justify-center items-center'>Design</span>
-                    <div className='flex items-center text-xs font-bold font-font-satoshi text-coregray'>
+                    <span className='bg-coreblue lg:p-2 p-1 lg:text-xs text-[4px] text-primaryblue rounded-full lg:w-[79px] font-font-satoshi font-bold flex justify-center items-center'>Design</span>
+                    <div className='flex items-center lg:text-xs text-[4px] font-bold font-font-satoshi text-coregray'>
                         <p>4.7k</p>
                         <span>
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg className='lg:w-[16px] lg:h-[16px] w-[3.33px] h-[3.17px]' viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <mask id="mask0_1476_359" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
                                     <rect width="16" height="16" fill="#D9D9D9" />
                                 </mask>
@@ -27,10 +27,10 @@ const Card = () => {
                         </span>
                     </div>
                 </div>
-                <p className='mt-6 text-2xl font-font-satoshi font-bold'>Introduction to user research in UX Design</p>
-                <div className='flex justify-between mt-4 text-base text-coregray'>
-                    <div className='flex space-x-2 items-center'>
-                        <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <p className='lg:mt-6 mt-2 lg:text-2xl text-[8px] font-font-satoshi font-bold'>Introduction to user research in UX Design</p>
+                <div className='flex justify-between lg:mt-4 mt-2 lg:text-base text-[4px] text-coregray'>
+                    <div className='flex lg:space-x-2 space-x-0.5 items-center'>
+                        <span><svg className='lg:w-[24px] lg:h-[24px] h-[16px] w-[16px]' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_1476_487" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                                 <rect width="24" height="24" fill="#D9D9D9" />
                             </mask>
@@ -41,8 +41,8 @@ const Card = () => {
                         </span>
                         <p>23hrs 50mins</p>
                     </div>
-                    <div className='flex space-x-2 items-center'>
-                        <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className='flex lg:space-x-2 space-x-0.5 items-center'>
+                        <span><svg className='lg:w-[24px] lg:h-[24px] h-[16px]' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_1476_375" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                                 <rect width="24" height="24" fill="#D9D9D9" />
                             </mask>
@@ -54,14 +54,14 @@ const Card = () => {
                         <p>22 Lessons</p>
                     </div>
                 </div>
-                <div className='my-7 flex justify-between items-center'>
+                <div className='lg:my-7 my-2 flex justify-between items-center'>
                     <div className='flex items-center space-x-2'>
                         <span>
-                            <Image className='w-[40px] h-[40px] object-fill bg-cover bg-no-repeat' src={UXDesigner} alt="ux designer" />
+                            <Image className='lg:w-[40px] lg:h-[40px] w-[16px] h-[16px] object-fill bg-cover bg-no-repeat' src={UXDesigner} alt="ux designer" />
                         </span>
-                        <p className='font-font-satoshi font-bold'>Leonard Victor</p>
+                        <p className='font-font-satoshi font-bold lg:text-base text-[6px]'>Leonard Victor</p>
                     </div>
-                    <p className='text-primaryblue text-xl font-semibold font-font-clash'>$45.00</p>
+                    <p className='text-primaryblue lg:text-xl text-[6px] font-semibold font-font-clash'>$45.00</p>
                 </div>
             </div>
         </div>

@@ -4,13 +4,13 @@ import React from 'react'
 import Button from './Button';
 
 const Footer = () => {
-    const h2Style = "text-[32px] font-font-clash font-semibold";
+    const h2Style = "lg:text-[32px] font-font-clash font-semibold";
     const liStyle = "font-font-satoshi text-[24px]";
     const ulStyle = "mt-6 space-y-4"
 
     return (
-        <div className='mt-20 h-screen bg-primaryblack pt-44 px-20 2xl:px-32 text-white'>
-            <div className='flex space-x-24'>
+        <div className='lg:mt-20 mt-14 lg:h-screen h-auto bg-primaryblack lg:pt-44 pt-10 lg:px-20 px-4 2xl:px-32 text-white'>
+            <div className='lg:flex block lg:space-x-24'>
                 <div className='flex-1'>
                     <Logo />
                     <p className='text-base font-font-satoshi mt-6'>Reach out to us on any of our social media networks</p>

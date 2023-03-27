@@ -6,15 +6,15 @@ import Button from './Button';
 
 const Community = () => {
   return (
-      <div className='mt-10 h-[971px] text-white bg-primaryblue relative font-font-satoshi'>
+      <div className='mt-10 lg:h-[971px] h-[459px] text-white bg-primaryblue relative font-font-satoshi'>
           <div className='absolute w-full'>
-              <div className='text-white relative z-50 mt-[86px] flex justify-center mx-auto flex-col items-center'>
-                  <p className='font-font-satoshi uppercase text-base font-medium'>Join Our Community</p>
-                  <h1 className=' font-font-clash text-[56px] w-[80%] mt-2 text-center font-bold leading-[68.88px]'>Are you  ready to connect with the future talent of the tech world</h1>
-                  <p className='capitalize text-base font-medium mt-4'>Meet up with other techstars and grow together</p>
+              <div className='text-white relative z-50 lg:mt-[86px] mt-10 flex justify-center mx-auto flex-col items-center'>
+                  <p className='font-font-satoshi uppercase lg:text-base text-[8px] font-medium'>Join Our Community</p>
+                  <h1 className=' font-font-clash lg:text-[56px] text-[24px] lg:w-[80%] w-[90%] mt-2 text-center font-bold leading-[29.52px] lg:leading-[68.88px]'>Are you  ready to connect with the future talent of the tech world</h1>
+                  <p className='capitalize lg:text-base text-[8px] font-medium mt-4'>Meet up with other techstars and grow together</p>
               </div>
           </div>
-          <div className='absolute bottom-24 flex justify-center mx-auto w-full'>
+          <div className='absolute lg:bottom-24 bottom-6 flex justify-center mx-auto w-full'>
               <Button
                   name="Join Our Community"
                   bg='bg-white'
@@ -26,13 +26,13 @@ const Community = () => {
                   handleClick={() => {}}
               />
           </div>
-          <div className='absolute w-full bottom-52'>
-              <div className='flex justify-center items-center mx-auto w-[70%]'>
-                  <Image className='h-[454.2px] w-full' src={Group} alt="group" />
+          <div className='absolute w-full lg:bottom-52 bottom-20'>
+              <div className='flex justify-center items-center mx-auto lg:w-[70%] w-[95%]'>
+                  <Image className='lg:h-[454.2px] h-[207.13px] w-full' src={Group} alt="group" />
             </div>
           </div>
           <div> 
-              <svg width="1728" height="971" viewBox="0 0 1728 971" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className='lg:h-[971px] h-[459px]' viewBox="0 0 1728 971" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1476_642)">
 <path d="M-1374.51 775.394C-1338.17 734.016 -1189 1011.13 -1152.64 969.729C-1116.28 928.328 -1265.47 651.237 -1229.11 609.837C-1192.75 568.437 -1043.6 845.572 -1007.24 804.172C-970.875 762.772 -1120.07 485.681 -1083.71 444.281C-1047.35 402.881 -898.195 680.016 -861.835 638.616C-825.475 597.216 -974.673 320.125 -938.313 278.725C-901.953 237.324 -752.794 514.46 -716.434 473.06C-680.074 431.659 -829.272 154.568 -792.932 113.19C-756.591 71.8124 -607.393 348.903 -570.975 307.437C-534.557 265.97 -683.813 -11.0545 -647.473 -52.4324C-611.132 -93.8104 -461.915 183.258 -425.652 141.969C-389.39 100.68 -538.491 -176.522 -502.033 -218.033C-465.576 -259.544 -316.514 17.702 -280.174 -23.676C-243.833 -65.054 -392.993 -342.189 -356.652 -383.567C-320.312 -424.945 -171.133 -147.832 -134.773 -189.232C-98.4135 -230.632 -247.611 -507.723 -211.271 -549.101C-174.931 -590.479 -25.7326 -313.388 10.6273 -354.789C46.9872 -396.189 -102.211 -673.28 -65.8511 -714.68C-29.4912 -756.08 119.668 -478.945 156.028 -520.345C192.388 -561.745 43.1897 -838.836 79.5496 -880.236C115.909 -921.636 265.068 -644.501 301.428 -685.901C337.788 -727.301 188.59 -1004.39 224.95 -1045.79C261.31 -1087.19 410.469 -810.057 446.829 -851.458C483.189 -892.858 334.01 -1169.97 370.351 -1211.35C406.691 -1252.73 555.889 -975.636 592.23 -1017.01C628.57 -1058.39 479.411 -1335.53 515.751 -1376.91C552.092 -1418.28 701.29 -1141.19 737.65 -1182.59C774.01 -1223.99 624.812 -1501.08 661.171 -1542.48C697.531 -1583.88 846.71 -1306.77 883.05 -1348.15C919.391 -1389.53 770.231 -1666.66 806.591 -1708.06C842.951 -1749.46 992.13 -1472.35 1028.49 -1513.75C1064.85 -1555.15 915.671 -1832.26 952.011 -1873.64" stroke="#A0A3BD" stroke-opacity="0.1" stroke-width="1.898" stroke-miterlimit="10"/>
 <path d="M-1068.33 1344.17C-1031.99 1302.79 -882.807 1579.91 -846.447 1538.5C-810.087 1497.1 -959.285 1220.01 -922.926 1178.61C-886.566 1137.21 -737.407 1414.35 -701.047 1372.95C-664.687 1331.55 -813.885 1054.46 -777.525 1013.06C-741.165 971.657 -592.006 1248.79 -555.646 1207.39C-519.286 1165.99 -668.484 888.901 -632.124 847.501C-595.765 806.101 -446.605 1083.24 -410.246 1041.84C-373.886 1000.44 -523.084 723.345 -486.743 681.967C-450.403 640.589 -301.205 917.68 -264.787 876.213C-228.368 834.746 -377.625 557.722 -341.284 516.344C-304.944 474.966 -155.726 752.035 -119.464 710.745C-83.2014 669.456 -232.302 392.254 -195.845 350.743C-159.388 309.232 -10.3258 586.478 26.0146 545.1C62.355 503.722 -86.8041 226.587 -50.4636 185.209C-14.1232 143.831 135.055 420.944 171.415 379.544C207.775 338.144 58.577 61.053 94.9174 19.675C131.258 -21.703 280.456 255.388 316.816 213.988C353.176 172.588 203.978 -104.503 240.337 -145.903C276.697 -187.304 425.856 89.8316 462.216 48.4314C498.576 7.03127 349.378 -270.06 385.738 -311.46C422.098 -352.86 571.257 -75.7247 607.617 -117.125C643.977 -158.525 494.779 -435.616 531.139 -477.016C567.499 -518.416 716.658 -241.281 753.017 -282.681C789.377 -324.081 640.199 -601.195 676.539 -642.573C712.88 -683.951 862.078 -406.86 898.418 -448.238C934.759 -489.616 785.599 -766.751 821.94 -808.129C858.28 -849.507 1007.48 -572.416 1043.84 -613.816C1080.2 -655.216 931 -932.307 967.36 -973.707C1003.72 -1015.11 1152.9 -737.994 1189.24 -779.372C1225.58 -820.75 1076.42 -1097.89 1112.78 -1139.29C1149.14 -1180.69 1298.32 -903.573 1334.68 -944.973C1371.04 -986.373 1221.86 -1263.49 1258.2 -1304.86" stroke="#A0A3BD" stroke-opacity="0.05" stroke-width="1.3286" stroke-miterlimit="10"/>

@@ -18,7 +18,7 @@ const Category = () => {
                   </div>
                 ))}
         </div>
-        <div className='w-full gap-8 grid grid-cols-3 h-auto mt-16 text-left'>
+        <div className='w-full lg:gap-8 gap-3 grid lg:grid-cols-3 grid-cols-2 h-auto mt-16 text-left'>
         <Card />
         <Card />
         <Card />

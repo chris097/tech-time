@@ -3,19 +3,22 @@ import Image from 'next/image';
 import Course2 from '../assets/images/course2.png';
 
 const About = () => {
+    const boxStyle = "font-bold lg:mt-6 mt-2 lg:text-base text-[12px] whitespace-nowrap";
+    const pStyle = "lg:text-xs text-[8px] lg:leading-[28px] leading-[16px] text-coregray font-medium";
+    const iconStyle = "lg:w-[49px] lg:h-[49px] w-[32px] h-[32px]";
     return (
         <div className='container mt-28 h-full'>
-            <div className='flex space-x-24 items-center'>
-                <div className='flex-1'>
-                    <h2 className='text-[48px] 2xl:text-[56px] text-primaryblack font-bold font-font-clash leading-[70px] w-full'>This Is Why We Are Best From Others</h2>
-                    <p className='w-[88%] leading-28 mt-4 mb-8 text-coregray font-font-satoshi text-base font-medium capitalize'>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
-                    <Image className='w-full h-[450px] object-fill bg-no-repeat bg-cover' src={Course2} alt="Man with laptop" />
+            <div className='lg:flex block lg:space-x-24 items-center'>
+                <div className='flex-1 w-full'>
+                    <h2 className='text-[24px] lg:text-left text-center lg:text-[56px] text-primaryblack font-bold font-font-clash lg:leading-[70px] leading-[36px] w-full'>This Is Why We Are Best From Others</h2>
+                    <p className='w-[88%] lg:mx-0 mx-auto text-center leading-28 mt-4 mb-8 text-coregray font-font-satoshi lg:text-base text-[8px] font-medium capitalize'>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
+                    <Image className='w-full lg:h-[450px] h-[260px] object-fill bg-no-repeat bg-cover' src={Course2} alt="Man with laptop" />
                 </div>
                 <div className='flex-1 space-y-6 mt-8'>
                     <div className='flex items-center space-x-6'>
-                        <div className='bg-white w-1/2 h-auto p-6 font-font-satoshi '>
+                        <div className='bg-white w-1/2 h-auto lg:p-6 p-3 font-font-satoshi '>
                             <span>
-                                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg className={`${iconStyle}`} viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="0.570312" y="0.5" width="48" height="48" rx="4" fill="#4C7FBD" />
                                     <mask id="mask0_1476_267" maskUnits="userSpaceOnUse" x="12" y="12" width="25" height="25">
                                         <rect x="12.5703" y="12.5" width="24" height="24" fill="#D9D9D9" />
@@ -25,12 +28,12 @@ const About = () => {
                                     </g>
                                 </svg>
                             </span>
-                            <p className='font-bold mt-6 text-base'>Experienced Mentors</p>
-                            <p className='text-xs leading-[28px] text-coregray font-medium'>High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </p>
+                            <p className={`${boxStyle}`}>Experienced Mentors</p>
+                            <p className={`${pStyle}`}>High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </p>
                         </div>
-                        <div className='bg-white w-1/2 h-auto p-6 font-font-satoshi '>
+                        <div className='bg-white w-1/2 h-auto lg:p-6 p-3 font-font-satoshi '>
                             <span>
-                                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg className={`${iconStyle}`} viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="0.570312" y="0.5" width="48" height="48" rx="4" fill="#4C7FBD" />
                                     <mask id="mask0_1476_267" maskUnits="userSpaceOnUse" x="12" y="12" width="25" height="25">
                                         <rect x="12.5703" y="12.5" width="24" height="24" fill="#D9D9D9" />
@@ -40,14 +43,14 @@ const About = () => {
                                     </g>
                                 </svg>
                             </span>
-                            <p className='font-bold mt-6 text-base'>Experienced Mentors</p>
-                            <p className='text-xs leading-[28px] text-coregray font-medium'>High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </p>
+                            <p className={`${boxStyle}`}>Experienced Mentors</p>
+                            <p className={`${pStyle}`}>High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </p>
                         </div>
                     </div>
                     <div className='flex items-center space-x-6'>
-                        <div className='bg-white w-1/2 h-auto p-6 font-font-satoshi '>
+                        <div className='bg-white w-1/2 h-auto lg:p-6 p-3 font-font-satoshi '>
                             <span>
-                                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg className={`${iconStyle}`} viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="0.570312" y="0.5" width="48" height="48" rx="4" fill="#4C7FBD" />
                                     <mask id="mask0_1476_267" maskUnits="userSpaceOnUse" x="12" y="12" width="25" height="25">
                                         <rect x="12.5703" y="12.5" width="24" height="24" fill="#D9D9D9" />
@@ -57,12 +60,12 @@ const About = () => {
                                     </g>
                                 </svg>
                             </span>
-                            <p className='font-bold mt-6 text-base'>Experienced Mentors</p>
-                            <p className='text-xs leading-[28px] text-coregray font-medium'>High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </p>
+                            <p className={`${boxStyle}`}>Experienced Mentors</p>
+                            <p className={`${pStyle}`}>High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </p>
                         </div>
-                        <div className='bg-white w-1/2 h-auto p-6 font-font-satoshi '>
+                        <div className='bg-white w-1/2 h-auto lg:p-6 p-3 font-font-satoshi '>
                             <span>
-                                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg className={`${iconStyle}`} viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="0.570312" y="0.5" width="48" height="48" rx="4" fill="#4C7FBD" />
                                     <mask id="mask0_1476_267" maskUnits="userSpaceOnUse" x="12" y="12" width="25" height="25">
                                         <rect x="12.5703" y="12.5" width="24" height="24" fill="#D9D9D9" />
@@ -72,8 +75,8 @@ const About = () => {
                                     </g>
                                 </svg>
                             </span>
-                            <p className='font-bold mt-6 text-base'>Experienced Mentors</p>
-                            <p className='text-xs leading-[28px] text-coregray font-medium'>High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </p>
+                            <p className={`${boxStyle}`}>Experienced Mentors</p>
+                            <p className={`${pStyle}`}>High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </p>
                         </div>
                     </div>
                 </div>

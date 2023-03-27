@@ -7,7 +7,7 @@ import React from 'react'
 
 const Client = () =>
 (
-    <div className='h-[158px] bg-lighterblue z-50 flex items-center justify-center space-x-16'>
+    <div className='lg:h-[158px] h-[60px] bg-lighterblue grid grid-cols-4'>
         <Zoom />
         <Stripe />
         <Monday />
