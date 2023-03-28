@@ -9,7 +9,7 @@ import Hero from '../../assets/images/hero.png';
 
 const Banner = () => {
     return (
-        <div className='lg:h-[948px] h-screen text-white bg-primaryblue relative font-font-satoshi'>
+        <div className='lg:h-[948px] h-[703px] text-white bg-primaryblue relative font-font-satoshi'>
             <span className='absolute top-1/2 mt-10 w-10'><svg viewBox="0 0 64 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.1331 19.4004L0 3.16261L1.77117 1.56067L11.1331 15.1771L21.3806 0.25L31.6281 15.1771L41.8756 0.25L52.1231 15.1771L61.4851 1.56067L63.2562 3.16261L52.1231 19.4004L41.8756 4.47328L31.6281 19.4004L21.3806 4.47328L11.1331 19.4004Z" fill="#5588CC" />
             </svg>

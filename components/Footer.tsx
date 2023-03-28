@@ -4,8 +4,8 @@ import React from 'react'
 import Button from './Button';
 
 const Footer = () => {
-    const h2Style = "lg:text-[32px] font-font-clash font-semibold";
-    const liStyle = "font-font-satoshi text-[24px]";
+    const h2Style = "lg:text-[32px] text-[24px] mt-10 font-font-clash font-semibold";
+    const liStyle = "font-font-satoshi lg:text-[24px] text-base";
     const ulStyle = "mt-6 space-y-4"
 
     return (
@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='lg:flex block lg:space-x-24'>
                 <div className='flex-1'>
                     <Logo />
-                    <p className='text-base font-font-satoshi mt-6'>Reach out to us on any of our social media networks</p>
+                    <p className='text-base font-font-satoshi mt-6 lg:w-full w-[60%]'>Reach out to us on any of our social media networks</p>
                     <div className='mt-6 flex space-x-6 items-center'>
                         <span>
                             <svg className='fill-coreblack hover:fill-coregray cursor-pointer' width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,7 +77,7 @@ const Footer = () => {
                         <li className={`${liStyle}`}>Newsletter</li>
                     </ul>
                 </div>
-                <div className='flex-1'>
+                <div className='flex-1 lg:pb-0 pb-10'>
                     <h2 className={`${h2Style}`}>Subscribe Us</h2>
                     <div className='flex mt-4'>
                         <input type="text" placeholder='nft123@gmail.com' className='h-[46px] outline-none px-4 w-[236px] text-nextgray bg-coreblack' />

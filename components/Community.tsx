@@ -20,8 +20,8 @@ const Community = () => {
                   bg='bg-white'
                   color='text-primaryblue'
                   border='border-none'
-                  height='h-[54px]'
-                  width='w-[220px]'
+                  height='lg:h-[54px] h-[27px]'
+                  width='lg:w-[220px] w-[110px]'
                   type='button'
                   handleClick={() => {}}
               />

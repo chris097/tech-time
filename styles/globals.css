@@ -29,6 +29,6 @@ a {
     @apply lg:text-[56px] text-[24px] font-font-clash font-bold text-center
   }
   .p-text{
-    @apply lg:text-base text-[8px] font-font-satoshi lg:w-[55%] flex mx-auto text-coregray font-medium text-center leading-[16px]
+    @apply lg:text-base text-[8px] font-font-satoshi lg:w-[55%] w-[80%] flex mx-auto text-coregray font-medium text-center leading-[16px]
   }
 }

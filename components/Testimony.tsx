@@ -4,7 +4,7 @@ import Test1 from '../assets/images/test1.png';
 
 const Testimony = () => {
   return (
-      <div className='mt-[119px]'>
+      <div className='lg:mt-[119px] mt-[62px]'>
           <div>
               <h1 className='h1-text'>What our clients are saying</h1>
               <p className='p-text'>High-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>

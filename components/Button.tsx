@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = (props) => (
             ${props.height}
             ${props.color} 
             ${props.border}
-            rounded-[4px] hover:opacity-80 font-font-satoshi`
+            rounded-[4px] lg:text-base text-[8px] hover:opacity-80 font-font-satoshi`
         }>
             {props.name}
     </button>

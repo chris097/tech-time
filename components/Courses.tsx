@@ -27,14 +27,14 @@ const Courses = () => {
                         </svg>
                         </span>
                         <h2 className='lg:text-[48px] text-[24px] text-center lg:text-left 2xl:text-[56px] text-primaryblack font-bold font-font-clash relative lg:leading-[70px]'>High quality video, audio & live classes</h2>
-                        <p className='lg:w-[88%] w-full mt-4 mb-8 text-coregray font-font-satoshi lg:text-base text-[8px] font-medium capitalize'>
+                        <p className='lg:w-[88%] w-full lg:mt-4 mt-2 lg:mb-8 mb-4 text-coregray font-font-satoshi lg:text-base text-[8px] font-medium capitalize'>
                             high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image
                         </p>
                         <Button
                             name="View Courses"
                             bg='bg-primaryblue'
-                            width='w-[166px]'
-                            height='h-[54px]'
+                            width='lg:w-[166px] w-[83px]'
+                            height='lg:h-[54px] h-[27px]'
                             color='text-white'
                             border=''
                             type='button'
