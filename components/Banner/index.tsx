@@ -67,8 +67,8 @@ const Banner = () => {
                             <div className='mt-6 flex justify-between relative'>
                                 <div className='flex items-center md:space-x-8 sm:space-x-4 space-x-3'>
                                     <div className='flex -ml-1'>
-                                        {avatars.map((avatar) => (
-                                            <Image className='md:w-[64px] sm:h-[48px] sm:w-[48px] h-[32px] w-[32px] lg:-mr-5 -mr-2 md:h-[64px]' src={avatar.url} alt="avatar" />
+                                        {avatars.map((avatar, index) => (
+                                            <Image key={index} className='md:w-[64px] sm:h-[48px] sm:w-[48px] h-[32px] w-[32px] lg:-mr-5 -mr-2 md:h-[64px]' src={avatar.url} alt="avatar" />
                                         ))}
                                     </div>
                                     <div className='text-center leading-tight'>

@@ -62,8 +62,8 @@ const Footer = () => {
                 <div className='flex-1'>
                     <h2 className={`${h2Style} whitespace-nowrap`}>Useful Links</h2>
                     <ul className={`${ulStyle}`}>
-                        {navs.map(nav => (
-                            <li className={`${liStyle}`}>{nav.name}</li>
+                        {navs.map((nav, index) => (
+                            <li key={index} className={`${liStyle}`}>{nav.name}</li>
                     ))}
                     </ul>
                 </div>

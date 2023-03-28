@@ -13,7 +13,7 @@ const Category = () => {
               </p>
               <div className='flex justify-center space-x-8 mt-[56px]'>
                   {categories.map((category, index)=> (
-                    <div className={`${index === 0 && 'bg-white text-primaryblue '} w-[137px] h-[46px] text-coregray font-font-satoshi text-base items-center flex justify-center font-bold cursor-pointer`}>
+                    <div key={index} className={`${index === 0 && 'bg-white text-primaryblue '} w-[137px] h-[46px] text-coregray font-font-satoshi text-base items-center flex justify-center font-bold cursor-pointer`}>
                       {category.name}
                   </div>
                 ))}
