@@ -32,3 +32,21 @@ a {
     @apply lg:text-base text-[8px] font-font-satoshi lg:w-[55%] w-[80%] flex mx-auto text-coregray font-medium text-center leading-[16px]
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .banner{
+    height: 78vh;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .banner{
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 365px) {
+  .banner{
+    height: 88vh;
+  }
+}
+
+
