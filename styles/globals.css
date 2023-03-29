@@ -33,9 +33,14 @@ a {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .banner{
     height: 69vh;
+  }
+};
+@media screen and (min-width: 320px) {
+  .banner{
+    height: 100vh;
   }
 };
 
