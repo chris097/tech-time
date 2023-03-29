@@ -1,9 +1,35 @@
-import { categories } from '@/dummy';
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { cards, categories } from '@/dummy';
 import Button from './Button';
 import Card from './Card';
 
+type cardProps = {
+  id: number
+  title: string
+  name: string
+  amount: string
+  type: string
+}
+
 const Category = () => {
+  const [isFilteredCategory, setIsFilteredCategory] = useState<cardProps[]>([]);
+  const [isType, setIsType] = useState<string>("");
+  const [activeCategory, setActiveCategory] = useState<number>(0);
+
+  const filterCategory = () => {
+    const filteredCategory = cards.filter(card => card.type === isType);
+    setIsFilteredCategory(filteredCategory)
+  };
+
+  const categoryTag = (key:string, index:number) => {
+    setIsType(key)
+    setActiveCategory(index)
+  }
+
+  useEffect(() => {
+    filterCategory()
+  }, [isType]);
+
   return (
       <div className='container lg:mt-28 mt-16'>
           <div className='text-center'>
@@ -13,15 +39,32 @@ const Category = () => {
               </p>
               <div className='flex justify-center lg:space-x-8 space-x-4 lg:mt-[56px] mt-5'>
                   {categories.map((category, index)=> (
-                    <div key={index} className={`${index === 0 && 'bg-white text-primaryblue '} lg:w-[137px] w-[69px] lg:h-[46px] h-[19px] text-coregray font-font-satoshi lg:text-base text-[8px] items-center flex justify-center font-bold cursor-pointer`}>
+                    <div
+                      onClick={() => categoryTag(category.key, index)}
+                      key={index}
+                      className={`${index === activeCategory && 'bg-white text-primaryblue '} px-6 py-3 text-coregray font-font-satoshi lg:text-base text-[8px] items-center flex justify-center font-bold cursor-pointer`}>
                       {category.name}
                   </div>
                 ))}
         </div>
         <div className='w-full lg:gap-8 gap-3 grid lg:grid-cols-3 grid-cols-2 h-auto lg:mt-16 mt-10 text-left'>
-        <Card />
-        <Card />
-        <Card />
+          {isType ? isFilteredCategory?.map((card, index) => (
+            <Card
+              key={index}
+              name={card.name}
+              type={card.type}
+              amount={card.amount}
+              title={card.title}
+            />
+          ))  : cards.map((card, index) => (
+            <Card
+              key={index}
+              name={card.name}
+              type={card.type}
+              amount={card.amount}
+              title={card.title}
+            />
+        ))}
         </div>
         <div className='font-bold lg:mt-10 mt-6'>
           <Button 

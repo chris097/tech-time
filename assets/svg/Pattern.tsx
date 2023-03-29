@@ -3,7 +3,7 @@ import React from 'react'
 const Pattern = () => {
   return (
       <div>
-          <svg width="1728" className='h-full mt-20 absolute' viewBox="0 0" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="1728" className='h-screen absolute' viewBox="0 0" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_6_50)">
 <path d="M703.493 2806.54C865.318 2642.57 959.368 2735.39 1121.19 2571.43C1283.02 2407.46 1188.97 2314.64 1350.74 2150.72C1512.52 1986.8 1606.62 2079.58 1768.44 1915.61C1930.27 1751.65 1836.22 1658.83 1998.04 1494.86C2159.87 1330.89 2253.92 1423.72 2415.79 1259.7C2577.66 1095.69 2483.56 1002.92 2645.39 838.951" stroke="#A0A3BD" stroke-opacity="0.1" stroke-width="1.5" stroke-miterlimit="10"/>
 <path d="M-1136.14 960.652C-974.315 796.686 -880.264 889.509 -718.44 725.544C-556.615 561.578 -650.666 468.756 -488.888 304.837C-327.11 140.919 -233.013 233.695 -71.1882 69.7292C90.6363 -94.2362 -3.41435 -187.059 158.41 -351.024C320.235 -514.989 414.285 -422.167 576.156 -586.18C738.027 -750.192 643.93 -842.968 805.755 -1006.93" stroke="#A0A3BD" stroke-opacity="0.1" stroke-width="1.5" stroke-miterlimit="10"/>

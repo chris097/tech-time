@@ -3,13 +3,22 @@ import React from 'react';
 import UX from '../assets/images/ux.png';
 import UXDesigner from '../assets/images/ux-designer.png';
 
-const Card = () => {
+type CardProps = {
+    name: string
+    type: string
+    amount: string
+    title: string
+}
+
+const Card:React.FC<CardProps> = (props) => {
     return (
         <div>
             <div className='h-auto bg-white lg:p-4 p-2 lg:rounded-[16px] rounded-[4px]'>
                 <Image className='lg:h-[292.67px] h-[117.88px] w-full object-fill bg-no-repeat bg-cover' src={UX} alt="courses" />
                 <div className='flex justify-between mt-3 items-center'>
-                    <span className='bg-coreblue lg:p-2 p-1 lg:text-xs text-[4px] text-primaryblue rounded-full lg:w-[79px] font-font-satoshi font-bold flex justify-center items-center'>Design</span>
+                    <span className='bg-coreblue px-4 py-1.5 lg:text-xs text-[4px] text-primaryblue rounded-full font-font-satoshi font-bold flex justify-center items-center'>
+                        {props.type}
+                    </span>
                     <div className='flex items-center lg:text-xs text-[4px] font-bold font-font-satoshi text-coregray'>
                         <p>4.7k</p>
                         <span>
@@ -27,7 +36,7 @@ const Card = () => {
                         </span>
                     </div>
                 </div>
-                <p className='lg:mt-6 mt-2 lg:text-2xl text-[8px] font-font-satoshi font-bold'>Introduction to user research in UX Design</p>
+                <p className='lg:mt-6 mt-2 lg:text-2xl text-[8px] font-font-satoshi font-bold'>{props.title}</p>
                 <div className='flex justify-between lg:mt-4 mt-2 lg:text-base text-[4px] text-coregray'>
                     <div className='flex lg:space-x-2 space-x-0.5 items-center'>
                         <span><svg className='lg:w-[24px] lg:h-[24px] h-[16px] w-[16px]' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,9 +68,9 @@ const Card = () => {
                         <span>
                             <Image className='lg:w-[40px] lg:h-[40px] w-[16px] h-[16px] object-fill bg-cover bg-no-repeat' src={UXDesigner} alt="ux designer" />
                         </span>
-                        <p className='font-font-satoshi font-bold lg:text-base text-[6px]'>Leonard Victor</p>
+                        <p className='font-font-satoshi font-bold lg:text-base text-[6px]'>{props.name}</p>
                     </div>
-                    <p className='text-primaryblue lg:text-xl text-[6px] font-semibold font-font-clash'>$45.00</p>
+                    <p className='text-primaryblue lg:text-xl text-[6px] font-semibold font-font-clash'>{props.amount}</p>
                 </div>
             </div>
         </div>

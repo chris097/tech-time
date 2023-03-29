@@ -26,9 +26,69 @@ export const avatars: { id: number, url: StaticImageData }[] = [
     { id: 5, url: avatar5 },
 ];
 
-export const categories:{id: number, name: string}[] = [
-    {id: 1, name: "All Categories"},
-    {id: 2, name: "Design"},
-    {id: 3, name: "Development"},
-    {id: 4, name: "Marketing"},
+export const categories: { id: number, name: string, key: string }[] = [
+    { id: 1, name: "All Categories", key: "" },
+    { id: 2, name: "Design", key: "Design" },
+    { id: 3, name: "Development", key: "Development" },
+    { id: 4, name: "Marketing", key: "Marketing" },
+];
+
+export const cards: {
+    id: number,
+    type: string,
+    title: string,
+    amount: string,
+    name: string
+}[] = [
+        { id: 1, type: "Design", title: "Introduction to user research in ux design", amount: "$15.00", name: "Leonard Victor" },
+        { id: 2, type: "Marketing", title: "Introduction to  new marketing audience", amount: "$32.00", name: "Jeffrey Williams" },
+        { id: 3, type: "Development", title: "Introduction to html, css & bootstrap", amount: "$55.00", name: "Claretta Mason" },
+        { id: 4, type: "Development", title: "Introduction to javascript, git & GitHub", amount: "$45.00", name: "Jessica Duke" },
+        { id: 5, type: "Marketing", title: "Introduction to outroom  marketing analysis", amount: "$25.00", name: "Samuel Jacobs" },
+        { id: 6, type: "Design", title: "Introduction to live  marketing analysis", amount: "$25.00", name: "Adam Smith" },
+    ];
+
+export const faqs:{id: number, title: string, description: string}[] = [
+    {
+        id: 1,
+        title: "Is there a free trial available?",
+        description: "High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. "
+    },
+    {
+        id: 2,
+        title: "Can i change my plan later?",
+        description: "High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. "
+    },
+    {
+        id: 3,
+        title: "Are the courses lifetime?",
+        description: "High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. "
+    },
+    {
+        id: 4,
+        title: "Do i get certified after taking courses?",
+        description: "High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. "
+    },
+    {
+        id: 5,
+        title: "How do i reach out to mentors?",
+        description: "High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. "
+    },
+    {
+        id: 6,
+        title: "Do we get job ready after taking courses?",
+        description: "High-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. "
+    },
+];
+
+export const testimonies:{id: number, name: string, description: string, type: string}[] = [
+    {
+        id: 1, name: "Bella Moon", type: "Product Designer",
+        description: "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world"
+    },
+    {
+        id: 1, name: "Bella Moon", type: "Product Designer",
+        description: "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world"
+    },
 ]
+
