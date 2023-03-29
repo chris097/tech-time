@@ -32,16 +32,16 @@ a {
     @apply lg:text-base text-[8px] font-font-satoshi lg:w-[55%] w-[80%] flex mx-auto text-coregray font-medium text-center leading-[16px]
   }
 }
-
+/* 
 @media screen and (min-width: 320px) {
   .banner{
     height: 69vh;
   }
 };
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .banner{
     height: 100vh;
   }
-};
+}; */
 
 

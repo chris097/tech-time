@@ -9,16 +9,16 @@ import Hero from '../../assets/images/hero.png';
 
 const Banner = () => {
     return (
-        <div className='lg:h-[948px] banner text-white bg-primaryblue relative font-font-satoshi'>
+        <div className='h-auto flex text-white bg-primaryblue z-20 font-font-satoshi'>
             <span className='absolute top-1/2 mt-10 w-10'><svg viewBox="0 0 64 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.1331 19.4004L0 3.16261L1.77117 1.56067L11.1331 15.1771L21.3806 0.25L31.6281 15.1771L41.8756 0.25L52.1231 15.1771L61.4851 1.56067L63.2562 3.16261L52.1231 19.4004L41.8756 4.47328L31.6281 19.4004L21.3806 4.47328L11.1331 19.4004Z" fill="#5588CC" />
             </svg>
             </span>
             <Pattern />
-            <div className='absolute top-0'>
+            <div className='z-50 relative'>
                 <div className='mx-7 md:mx-16 2xl:max-w-7xl relative items-center'>
                     <Header />
-                    <div className='lg:flex block items-center lg:mt-9 mt-0 h-full relative'>
+                    <div className='lg:flex block items-center mt-0 h-full relative'>
                         <div className='flex-1 lg:block flex justify-center flex-col items-center'>
                             <div className='hidden justify-between w-[70%] lg:flex'>
                                 <div className='md:-mt-20 -mt-5'><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@ const Banner = () => {
 
                                 </div>
                             </div>
-                            <h1 className='text-white 2xl:text-[64px] lg:text-[56px] text-[28px] mt-4 lg:text-left text-center font-font-clash font-bold leading-tight'>
+                            <h1 className='text-white 2xl:text-[64px] lg:text-[56px] text-[28px] lg:text-left text-center font-font-clash font-bold leading-tight'>
                                 Grow your skills to advance your career path
                             </h1>
                             <p className='font-font-satoshi md:text-base text-[8px] lg:w-[70%] w-full md:mt-4 mt-2 lg:text-left text-center text-primarygray'>
@@ -90,7 +90,7 @@ const Banner = () => {
                             </div>
                         </div>
                         <div className='flex-1 justify-center flex items-center'>
-                            <Image className='bg-no-repeat lg:w-full w-[82.5%] mobile md:mt-[32.98px] mt-[34px] object-fill bg-cover' src={Hero} alt="hero" />
+                            <Image className='bg-no-repeat lg:w-full w-[82.5%] object-fill bg-cover' src={Hero} alt="hero" />
                         </div>
                     </div>
                 </div>
