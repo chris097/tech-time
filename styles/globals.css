@@ -39,20 +39,19 @@ a {
     height: 93vh;
   }
 }
-@media only screen and (max-width: 365px) {
-  .banner{
-    height: 88vh;
-  }
-}
 @media only screen and (max-width: 500px) {
   .banner{
     height: 78vh;
   }
 }
-
 @media only screen and (max-width: 380px) {
   .banner{
     height: 100vh;
+  }
+}
+@media only screen and (max-width: 365px) {
+  .banner{
+    height: 88vh;
   }
 }
 
