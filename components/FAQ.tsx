@@ -19,13 +19,13 @@ const FAQ = () => {
             </div>
             <div className='w-full lg:px-32 px-2 lg:mt-[74px] mt-[18px]'>
                 {faqs.map((faq, index) => (
-                    <div onClick={() => handleFaq(index)} key={index} className='border-b lg:py-6 pb-4 cursor-pointer'>
+                    <div onClick={() => handleFaq(index)} key={index} className='border-b lg:py-6 py-3 lg:pb-4 cursor-pointer'>
                     <div className='flex justify-between items-center'>
-                            <p className={`lg:text-xl text-[14px] font-font-satoshi ${toggleFaq && currentFaq === index && "text-primaryblue"} font-black text-primaryblack`}>{faq.title}</p>
+                            <p className={`lg:text-xl md:text-[14px] text-sm font-font-satoshi ${toggleFaq && currentFaq === index && "text-primaryblue"} font-black text-primaryblack`}>{faq.title}</p>
                         {toggleFaq && currentFaq === index ? <span><svg className='lg:w-[14px] lg:h-[2px] w-[5.32px] h-[0.76px]' viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 2V0H14V2H0Z" fill="#004DB3" />
                         </svg>
-                        </span>: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        </span>: <svg className='lg:w-[24px] lg:h-[24px] w-2 h-2' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="mask0_1476_727" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
 <rect width="24" height="24" fill="#D9D9D9"/>
 </mask>

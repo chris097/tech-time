@@ -42,7 +42,7 @@ const Category = () => {
                     <div
                       onClick={() => categoryTag(category.key, index)}
                       key={index}
-                      className={`${index === activeCategory && 'bg-white text-primaryblue '} px-6 py-3 text-coregray font-font-satoshi lg:text-base text-[8px] items-center flex justify-center font-bold cursor-pointer`}>
+                      className={`${index === activeCategory && 'bg-white text-primaryblue '} whitespace-nowrap md:px-6 px-2 md:py-3 py-2 text-coregray font-font-satoshi lg:text-base text-[8px] items-center flex justify-center font-bold cursor-pointer`}>
                       {category.name}
                   </div>
                 ))}
@@ -71,8 +71,8 @@ const Category = () => {
           name="Explore All Courses"
           bg="bg-primaryblue"
           color="text-white"
-          height="lg:h-[54px] h-[27px]"
-          width='lg:w-[209px] w-[83px]'
+          height="lg:h-[54px] h-12"
+          width='lg:w-[209px] w-[50%]'
           type='button'
           border=''
           handleClick={() => {}}

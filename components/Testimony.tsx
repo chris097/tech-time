@@ -26,10 +26,10 @@ const Testimony = () => {
                   ))}
              </div>
                   <div className='flex justify-center space-x-3 mt-10'>
-                       <div className='w-[10px] h-[10px] rounded-full bg-lighterblue' />
-                       <div className='w-[10px] h-[10px] rounded-full bg-primaryblue' />
-                       <div className='w-[10px] h-[10px] rounded-full bg-lighterblue' />
-                       <div className='w-[10px] h-[10px] rounded-full bg-lighterblue' />
+                       <div className='md:w-[10px] w-2 md:h-[10px] h-2 rounded-full bg-lighterblue' />
+                       <div className='md:w-[10px] w-2  md:h-[10px] h-2  rounded-full bg-primaryblue' />
+                       <div className='md:w-[10px] w-2  md:h-[10px] h-2  rounded-full bg-lighterblue' />
+                       <div className='md:w-[10px] w-2  md:h-[10px] h-2  rounded-full bg-lighterblue' />
                  </div>
           </div>
     </div>

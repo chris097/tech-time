@@ -6,7 +6,7 @@ import Button from './Button';
 
 const Community = () => {
   return (
-      <div className='mt-10 lg:h-[971px] h-[459px] text-white bg-primaryblue relative font-font-satoshi'>
+      <div className='mt-10 lg:h-[971px] h-[500px] text-white bg-primaryblue relative font-font-satoshi'>
           <div className='absolute w-full'>
               <div className='text-white relative z-50 lg:mt-[86px] mt-10 flex justify-center mx-auto flex-col items-center'>
                   <p className='font-font-satoshi uppercase lg:text-base text-[8px] font-medium'>Join Our Community</p>
@@ -20,13 +20,13 @@ const Community = () => {
                   bg='bg-white'
                   color='text-primaryblue'
                   border='border-none'
-                  height='lg:h-[54px] h-[27px]'
-                  width='lg:w-[220px] w-[110px]'
+                  height='lg:h-[54px] h-10'
+                  width='lg:w-[220px] w-[45%]'
                   type='button'
                   handleClick={() => {}}
               />
           </div>
-          <div className='absolute w-full lg:bottom-52 bottom-20'>
+          <div className='absolute w-full lg:bottom-52 bottom-24'>
               <div className='flex justify-center items-center mx-auto lg:w-[70%] w-[95%]'>
                   <Image className='lg:h-[454.2px] h-[207.13px] w-full' src={Group} alt="group" />
             </div>
