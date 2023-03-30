@@ -1,3 +1,28 @@
+
+# Dockerfile for production
+
+Dockerfile contains docker setup for production
+
+Dockerfile for development
+
+`./dev.Dockerfile` contains docker setup for development
+
+Run command on terminal to docker on development server
+
+``` build
+    docker build -t nextjs-docker-dev -f dev.Dockerfile .  
+```
+Allow file change detection ie  As we know Images are read-only and any file change made after the files have been built will not reflect on the localhost. For this, we have to use a bind mount. With bind mounts, we control the exact mount point on the host. We can use this to persist data, but it’s often used to provide additional data into containers. 
+
+``` run
+docker run -p 3000:3000 -v $(pwd):/app  nextjs-docker-dev
+```
+
+```run 
+docker run -p 3000:3000 nextjs-docker-dev
+```
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
