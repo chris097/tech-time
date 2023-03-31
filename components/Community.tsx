@@ -20,14 +20,14 @@ const Community = () => {
                   bg='bg-white'
                   color='text-primaryblue'
                   border='border-none'
-                  height='lg:h-[54px] h-10'
-                  width='lg:w-[220px] w-[45%]'
+                  height='lg:h-[54px]'
+                  width='lg:w-[220px]'
                   type='button'
                   handleClick={() => {}}
               />
           </div>
           <div className='absolute w-full lg:bottom-52 bottom-24'>
-              <div className='flex justify-center items-center mx-auto lg:w-[70%] w-[95%]'>
+              <div className='flex justify-center items-center mx-auto lg:w-[70%] w-full object-contain'>
                   <Image className='lg:h-[454.2px] h-[207.13px] w-full' src={Group} alt="group" />
             </div>
           </div>

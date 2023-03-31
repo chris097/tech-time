@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import React from 'react';
 import UX from '../assets/images/ux.png';
 import UXDesigner from '../assets/images/ux-designer.png';
@@ -8,13 +8,14 @@ type CardProps = {
     type: string
     amount: string
     title: string
+    img: any
 }
 
 const Card:React.FC<CardProps> = (props) => {
     return (
         <div>
             <div className='h-auto bg-white lg:p-4 p-2 lg:rounded-[16px] rounded-[4px]'>
-                <Image className='lg:h-[292.67px] h-[117.88px] w-full object-fill bg-no-repeat bg-cover' src={UX} alt="courses" />
+                <Image className='lg:h-[292.67px] h-[117.88px] w-full object-fill bg-no-repeat bg-cover' src={props.img} alt="courses" />
                 <div className='flex justify-between mt-3 items-center'>
                     <span className='bg-coreblue px-4 py-1.5 lg:text-xs text-[4px] text-primaryblue rounded-full font-font-satoshi font-bold flex justify-center items-center'>
                         {props.type}

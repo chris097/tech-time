@@ -3,6 +3,18 @@
 
 Dockerfile contains docker setup for production
 
+`./Dockerfile` contains docker setup for production
+
+Run command on terminal to docker on development server
+
+``` build
+    docker build -t nextjs-docker-dev -f Dockerfile .  
+```
+
+```run 
+docker run -p 3000:3000 nextjs-docker-dev
+```
+
 Dockerfile for development
 
 `./dev.Dockerfile` contains docker setup for development

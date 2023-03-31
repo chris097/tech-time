@@ -25,7 +25,7 @@ const Testimony = () => {
                   </div>
                   ))}
              </div>
-                  <div className='flex justify-center space-x-3 pt-80'>
+                  <div className='flex justify-center space-x-3 lg:pt-80 pt-52'>
                        <div className='md:w-[10px] w-2 md:h-[10px] h-2 rounded-full bg-lighterblue' />
                        <div className='md:w-[10px] w-2  md:h-[10px] h-2  rounded-full bg-primaryblue' />
                        <div className='md:w-[10px] w-2  md:h-[10px] h-2  rounded-full bg-lighterblue' />
