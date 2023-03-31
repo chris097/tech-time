@@ -12,6 +12,11 @@ import Cat2 from '../assets/images/cat2.png';
 import Cat3 from '../assets/images/cat3.png';
 import Cat4 from '../assets/images/cat4.png';
 import Cat5 from '../assets/images/cat5.png';
+import Cat6 from '../assets/images/cat6.png';
+import Cat7 from '../assets/images/cat7.png';
+import Cat8 from '../assets/images/cat8.png';
+import Cat9 from '../assets/images/cat9.png';
+import Cat10 from '../assets/images/cat10.png';
 
 export const navs: { id: number, name: string, link: string }[] = [
     { id: 1, name: CONSTANT_TEXT.HOME, link: PUBLIC_URL.HOME_URL },
@@ -42,14 +47,15 @@ export const cards: {
     title: string,
     amount: string,
     name: string,
-    img: StaticImageData
+    img: StaticImageData,
+    avatar: any
 }[] = [
-        { id: 1, type: "Design", title: "Introduction to user research in ux design", amount: "$15.00", img: Cat,  name: "Leonard Victor" },
-        { id: 2, type: "Marketing", title: "Introduction to  new marketing audience", amount: "$32.00", img: Cat1,  name: "Jeffrey Williams" },
-        { id: 3, type: "Development", title: "Introduction to html, css & bootstrap", amount: "$55.00", img: Cat2,  name: "Claretta Mason" },
-        { id: 4, type: "Development", title: "Introduction to javascript, git & GitHub", amount: "$45.00", img: Cat3,  name: "Jessica Duke" },
-        { id: 5, type: "Marketing", title: "Introduction to outroom  marketing analysis", amount: "$25.00", img: Cat4,  name: "Samuel Jacobs" },
-        { id: 6, type: "Design", title: "Introduction to live  marketing analysis", amount: "$25.00", img: Cat5,  name: "Adam Smith" },
+        { id: 1, type: "Design", title: "Introduction to user research in ux design", amount: "$15.00", img: Cat, avatar: Cat6, name: "Leonard Victor" },
+        { id: 2, type: "Marketing", title: "Introduction to  new marketing audience", amount: "$32.00", img: Cat1, avatar: Cat7, name: "Jeffrey Williams" },
+        { id: 3, type: "Development", title: "Introduction to html, css & bootstrap", amount: "$55.00", img: Cat2, avatar: Cat8, name: "Claretta Mason" },
+        { id: 4, type: "Development", title: "Introduction to javascript, git & GitHub", amount: "$45.00", img: Cat3, avatar: Cat9, name: "Jessica Duke" },
+        { id: 5, type: "Marketing", title: "Introduction to outroom  marketing analysis", amount: "$25.00", img: Cat4, avatar: Cat10, name: "Samuel Jacobs" },
+        { id: 6, type: "Design", title: "Introduction to live  marketing analysis", amount: "$25.00", img: Cat5, avatar: Cat, name: "Adam Smith" },
     ];
 
 export const faqs:{id: number, title: string, description: string}[] = [

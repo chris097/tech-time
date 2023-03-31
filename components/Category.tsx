@@ -11,6 +11,7 @@ type cardProps = {
   amount: string
   type: string
   img: StaticImageData
+  avatar: any
 }
 
 const Category = () => {
@@ -58,6 +59,7 @@ const Category = () => {
             <Card
               key={index}
               img={card.img}
+              avatar={card.avatar}
               name={card.name}
               type={card.type}
               amount={card.amount}
@@ -66,6 +68,7 @@ const Category = () => {
           ))  : cards.map((card, index) => (
             <Card
               key={index}
+              avatar={card.avatar}
               img={card.img}
               name={card.name}
               type={card.type}
